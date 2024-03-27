@@ -1,0 +1,103 @@
+/* CSS styles for the personal webpage */
+
+/* Add a border-radius to all images to make them more circular */
+img {
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('pale_bogota.jpg'); /* Set background image */
+    background-size: cover;
+    color: #3498db; /* Light blue color for text */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about-me, #skills, #contact-form, #history {
+    background-color: rgba(255, 255, 255, 0.7); /* Set background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #3498db; /* Blue color for text */
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#about-me img {
+    float: left;
+    margin-right: 20px;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+#skills img, .football-img, .soft-img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #3498db; /* Blue color */
+    color: white;
+}
+
+#buttons button:hover {
+    background-color: #2980b9; /* Darker shade of blue */
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3498db; /* Blue border */
+}
+
+#contact-form button {
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #2980b9; /* Darker shade of blue */
+}
+
+#thank-you-message {
+    display: none;
+    color: #3498db; /* Blue color */
+}
